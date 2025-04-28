@@ -1,0 +1,47 @@
+#nav {
+    background-color: #1b41b3;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.info, .navItems{
+    display: flex;
+    align-items: center;
+}
+.navItem {
+    margin: 0 6px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 14px;
+    font-size: 16px;
+}
+.navItem:last-child {
+    border-left: 2px solid #fff;
+}
+.icon img{
+    margin-right: 8px;
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+.title p{
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+}
+.navItem a{
+    color: white;
+    text-decoration: none;
+}
+.navItem a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    background-color: #ffffff33; /* Trắng nhẹ mờ (50% opacity) */
+}
